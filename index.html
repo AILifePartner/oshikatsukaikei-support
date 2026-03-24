@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>推し活会計 サポートページ</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      background: #FAFAFA;
+      color: #1A1A2E;
+      line-height: 1.8;
+      padding: 0 16px;
+    }
+    .container { max-width: 600px; margin: 0 auto; padding: 40px 0 60px; }
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      color: #E8527A;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #6B7280;
+      font-size: 14px;
+      margin-bottom: 32px;
+    }
+    .card {
+      background: #FFFFFF;
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(232, 82, 122, 0.1);
+    }
+    .card h2 {
+      font-size: 18px;
+      color: #E8527A;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #F5F0F2;
+    }
+    .description { color: #6B7280; font-size: 15px; }
+    .faq-item { margin-bottom: 20px; }
+    .faq-item:last-child { margin-bottom: 0; }
+    .faq-q {
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 4px;
+      color: #1A1A2E;
+    }
+    .faq-q::before { content: "Q. "; color: #E8527A; font-weight: bold; }
+    .faq-a { color: #6B7280; font-size: 14px; padding-left: 24px; }
+    .faq-a::before { content: "A. "; color: #3AAFA9; font-weight: bold; }
+    .contact-email {
+      display: inline-block;
+      color: #E8527A;
+      text-decoration: none;
+      font-weight: bold;
+      border-bottom: 1px solid #E8527A;
+    }
+    .contact-email:hover { opacity: 0.7; }
+    .footer {
+      text-align: center;
+      color: #9CA3AF;
+      font-size: 12px;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #F0F0F0;
+    }
+    .footer a { color: #E8527A; text-decoration: none; margin: 0 8px; }
+    .footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>推し活会計</h1>
+    <p class="subtitle">サポートページ</p>
+
+    <div class="card">
+      <h2>アプリについて</h2>
+      <p class="description">
+        「推し活会計」は、推し活に特化した支出記録・分析アプリです。推しごと・カテゴリごとに支出を管理し、グラフで可視化できます。月間レポートをSNSでシェアして、推し活の記録を楽しく残しましょう。
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>よくある質問</h2>
+      <div class="faq-item">
+        <p class="faq-q">データはどこに保存されますか？</p>
+        <p class="faq-a">お使いの端末内にのみ保存されます。サーバーへの送信は一切ありません。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">機種変更時にデータは引き継げますか？</p>
+        <p class="faq-a">Pro版のバックアップ機能（JSONエクスポート/インポート）をご利用ください。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">サブスクリプションの解約方法は？</p>
+        <p class="faq-a">iPhoneの設定 → Apple ID → サブスクリプションから解約できます。</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q">推しは何人まで登録できますか？</p>
+        <p class="faq-a">無料版・Pro版ともに無制限です。</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>お問い合わせ</h2>
+      <p class="description">
+        ご不明な点やご要望がございましたら、メールにてお問い合わせください。<br><br>
+        <a class="contact-email" href="mailto:oshikatsukaikei@gmail.com">oshikatsukaikei@gmail.com</a>
+      </p>
+    </div>
+
+    <div class="footer">
+      <a href="./privacy.html">プライバシーポリシー</a>
+      <a href="./terms.html">利用規約</a>
+      <p style="margin-top: 12px;">&copy; 2026 推し活会計</p>
+    </div>
+  </div>
+</body>
+</html>
